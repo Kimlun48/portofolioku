@@ -109,3 +109,7 @@ function myMenuFunction(){
   }
   
   window.addEventListener('scroll', scrollActive)
+
+  function downloadFile () {
+    window.open("assets/mycv.pdf")
+  }

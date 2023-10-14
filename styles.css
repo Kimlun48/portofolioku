@@ -239,6 +239,7 @@ nav {
   animation: imgFloat 7s ease-in-out infinite;
 }
 .image img {
+  border-radius: 8px;
   width: 380px;
   height: 380px;
   object-fit: contain;
