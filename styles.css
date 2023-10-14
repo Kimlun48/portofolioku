@@ -410,6 +410,8 @@ h3 {
 
 /* ----- CONTACT BOX ----- */
 .contact-info {
+  text-align: center;
+  font-size: 12px;
   position: relative;
   display: flex;
   flex-direction: column;
