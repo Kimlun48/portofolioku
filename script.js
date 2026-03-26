@@ -31,13 +31,24 @@ function myMenuFunction(){
   }
   
   /* ----- TYPING EFFECT ----- */
-  let typingEffect = new Typed(".typedText",{
-   strings: ["Fullstack Developer", "DevOps Engineer", "Server & Infrastructure Specialist"],
-    loop : true,
-    typeSpeed : 100,
-    backSpeed : 80,
-    backDelay : 2000
-  })
+  let typingEffect = new Typed(".typedText", {
+  strings: [
+  "Building Scalable Web Applications",
+  "Designing DevOps Pipelines",
+  "Managing Server Infrastructure"
+  ],
+  loop: true,
+  typeSpeed: 80,
+  backSpeed: 80,
+  backDelay: 2200,
+  startDelay: 600,
+  smartBackspace: true,
+  showCursor: true
+
+
+});
+
+
   
   /* ----- ## -- SCROLL REVEAL ANIMATION -- ## ----- */
   // const sr = ScrollReveal({
